@@ -221,10 +221,10 @@ gsap.to("#Menma", {
     start: "top 180",
     end: "+=280",
     scrub: true,
-    onEnter: () => (changeText("Menma", " ????? Uchiha"), ajusterLargeur("#Menma", "100%")),
-    onLeave: () => (changeText("Menma", "Caractère ????? Uchiha"), ajusterLargeur("#Menma", "150%")), 
-    onEnterBack: () => changeText("Menma", "Caractère ????? Uchiha"),
-    onLeaveBack: () => (changeText("Menma", "????? Uchiha"), ajusterLargeur("#Menma", "100%")),
+    onEnter: () => (changeText("Menma", " Arashi Uchiha"), ajusterLargeur("#Menma", "100%")),
+    onLeave: () => (changeText("Menma", "Caractère Arashi Uchiha"), ajusterLargeur("#Menma", "150%")), 
+    onEnterBack: () => changeText("Menma", "Caractère Arashi Uchiha"),
+    onLeaveBack: () => (changeText("Menma", "Arashi Uchiha"), ajusterLargeur("#Menma", "100%")),
   }
 });
 
